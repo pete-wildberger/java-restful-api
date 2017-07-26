@@ -5,10 +5,9 @@ public class Greeting {
     private final long id;
     private final String content;
 
-    public Greeting(long id, String name, int age, ) {
+    public Greeting(long id, String content) {
         this.id = id;
         this.content = content;
-        this.age = age;
     }
 
     public long getId() {
@@ -18,7 +17,5 @@ public class Greeting {
     public String getName() {
         return content;
     }
-    public int getName() {
-        return age;
-    }
+
 }
